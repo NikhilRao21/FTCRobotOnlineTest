@@ -18,7 +18,7 @@ public class LevelOne extends OpMode {
     }
 
     public void y() {
-        boolean YPress = gamepad1.y;
+        boolean yPress = gamepad1.y;
         telemetry.addLine("Click the y button as fast as you can when it says go!");
         try {
             wait(2);
@@ -27,7 +27,7 @@ public class LevelOne extends OpMode {
         }
         ElapsedTime reaction = new ElapsedTime();
         telemetry.addLine("go!");
-        while (YPress = false) {
+        while (yPress = false) {
             telemetry.addLine("Press the button! The timer is counting!");
 
         }
